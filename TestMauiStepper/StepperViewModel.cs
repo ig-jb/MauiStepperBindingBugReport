@@ -26,7 +26,7 @@ namespace TestMauiStepper
             {
                 if (_Min != value)
                 {
-                    _Max = value;
+                    _Min = value;
                     OnPropertyChanged();
                 }
             }
